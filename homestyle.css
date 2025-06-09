@@ -1,0 +1,39 @@
+body {
+display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh; /* Make sidebar full height */
+    position: fixed;
+    background: gray;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.sidebar img {
+    width: 80%; /* Adjust width to fit sidebar */
+    display: block;
+    margin: 0 auto 20px; /* Center the logo and add spacing */
+}
+
+.sidebar a {
+padding: 12px;
+display: flex;
+align-items: center;
+color: white;
+text-decoration: none;
+}
+.sidebar a i {
+margin-right: 10px;
+}
+.sidebar a:hover {
+background:darkgray;
+}
+.content {
+margin-left: 260px;
+padding: 10px;
+width: 100%;
+
+}
